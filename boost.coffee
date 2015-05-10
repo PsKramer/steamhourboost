@@ -23,13 +23,13 @@ class SteamAccount
     log(chalk.blue.bold('► ') + chalk.white('Starting to boost games ...\n'))
     @steamClient.gamesPlayed @games
     @steamClient.setPersonaState Steam.EPersonaState.Online
-    setTimeout @restartLoop, 900000
+    setTimeout @restartLoop, 120000
 
   restartLoop: =>
     @steamClient.gamesPlayed([])
     setTimeout =>
       @steamClient.gamesPlayed(@games)
-      setTimeout @restartLoop, 900000 # Restart games after 15min
+      setTimeout @restartLoop, 120000 # Restart games after 15min
     , 20000
 
 _.each database, (data) ->
@@ -53,4 +53,4 @@ log = (message) ->
   console.log chalk.bold.blue('[' + date + ' - ' + time + ']: ') + message
 
 # Kill the script after 1 hour
-setTimeout process.exit, 3600000
+#setTimeout process.exit, 3600000
