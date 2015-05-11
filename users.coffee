@@ -8,7 +8,7 @@ POSSIBLE_GAMES = [
   {name: 'CS Source', value: '240', checked: true}
   {name: 'CS GO', value: '730', checked: true}
   {name: 'Dota 2', value: '570'}
-  #{name: 'TF2', value: '440'}
+#  {name: 'TF2', value: '440'}
 ]
 
 account = null
