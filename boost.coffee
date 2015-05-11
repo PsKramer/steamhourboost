@@ -22,7 +22,7 @@ class SteamAccount
     log(chalk.green.bold(' ') + chalk.white("Sucessfully logged into '#{@accountName}'"))
     log(chalk.blue.bold('► ') + chalk.white('Starting to boost games ...\n'))
     @steamClient.gamesPlayed @games
-    @steamClient.setPersonaState Steam.EPersonaState.Online
+#    @steamClient.setPersonaState Steam.EPersonaState.Online
     setTimeout @restartLoop, 900000
 
   restartLoop: =>
