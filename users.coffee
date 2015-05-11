@@ -9,6 +9,8 @@ POSSIBLE_GAMES = [
   {name: 'CS GO', value: '730', checked: true}
   {name: 'Dota 2', value: '570'}
   {name: 'TF2', value: '440', checked: true}
+  {name: 'GTAV', value: '271590'}
+  {name: 'DayZ', value: '221100'}
 ]
 
 account = null
