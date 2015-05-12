@@ -11,6 +11,13 @@ POSSIBLE_GAMES = [
   {name: 'TF2', value: '440', checked: true}
   {name: 'GTAV', value: '271590'}
   {name: 'DayZ', value: '221100'}
+  {name: 'H1Z1', value: '295110'}
+  {name: 'CivV', value: '8930'}
+  {name: 'Infestation: SS', value: '226700'}
+  {name: 'Binding Isaac Rebirth', value: '250900'}
+  {name: 'Borderlands 2', value: '49520'}
+  {name: 'Garrys mod', value: '4000'}
+  
 ]
 
 account = null
