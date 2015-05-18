@@ -17,6 +17,7 @@ POSSIBLE_GAMES = [
   {name: 'Binding Isaac Rebirth', value: '250900'}
   {name: 'Borderlands 2', value: '49520'}
   {name: 'Garrys mod', value: '4000'}
+  {name: 'Half-life', value: '70'}
   
 ]
 
